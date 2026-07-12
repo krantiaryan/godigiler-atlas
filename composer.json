@@ -1,25 +1,42 @@
 {
-    "name": "godigiler/project-atlas",
-    "description": "Enterprise AI-first Digital Marketing Platform",
+    "name": "godigiler/godigiler-atlas",
+    "description": "Enterprise AI-first Digital Marketing Platform for Godigiler Web Solutions",
     "type": "project",
     "license": "proprietary",
+    "homepage": "https://godigilerwebsolutions.com",
+    "keywords": [
+        "wordpress",
+        "seo",
+        "aeo",
+        "geo",
+        "ai",
+        "marketing"
+    ],
     "require": {
         "php": "^8.3"
     },
     "require-dev": {
-        "phpcompatibility/php-compatibility": "^9.3",
-        "phpstan/phpstan": "^1.12",
-        "wp-coding-standards/wpcs": "^3.1",
         "dealerdirect/phpcodesniffer-composer-installer": "^1.0",
-        "phpcsstandards/phpcsutils": "^1.1"
+        "phpcompatibility/php-compatibility": "^9.3",
+        "phpcsstandards/phpcsutils": "^1.1",
+        "phpstan/phpstan": "^1.12",
+        "wp-coding-standards/wpcs": "^3.1"
     },
     "scripts": {
+        "validate": "composer validate",
         "lint": "phpcs",
-        "analyse": "phpstan analyse"
+        "analyse": "phpstan analyse",
+        "check": [
+            "@lint",
+            "@analyse"
+        ]
     },
     "config": {
+        "sort-packages": true,
         "allow-plugins": {
             "dealerdirect/phpcodesniffer-composer-installer": true
         }
-    }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
 }
