@@ -1,0 +1,11 @@
+godigiler-core/
+
+godigiler-core.php
+composer.json
+uninstall.php
+
+assets/
+config/
+languages/
+templates/
+src/
