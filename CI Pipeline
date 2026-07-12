@@ -1,0 +1,21 @@
+Checkout
+
+↓
+
+Validate Composer
+
+↓
+
+Install dependencies
+
+↓
+
+Run PHPCS
+
+↓
+
+Run PHPStan
+
+↓
+
+Report results
