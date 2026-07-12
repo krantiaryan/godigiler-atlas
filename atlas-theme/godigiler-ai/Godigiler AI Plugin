@@ -1,1 +1,11 @@
-Godigiler AI Plugin
+godigiler-ai/
+
+godigiler-ai.php
+composer.json
+uninstall.php
+
+assets/
+config/
+languages/
+templates/
+src/
