@@ -1,0 +1,28 @@
+phpcs.yml
+
+Run on:
+
+push
+pull_request
+
+Steps:
+
+Checkout
+Setup PHP 8.3
+Install Composer dependencies
+Run PHPCS
+phpstan.yml
+
+Run on:
+
+push
+pull_request
+
+Steps:
+
+Checkout
+Setup PHP
+Install dependencies
+Run PHPStan
+
+These workflows provide automated quality checks for every change.
