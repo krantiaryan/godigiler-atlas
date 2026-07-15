@@ -26,11 +26,6 @@ Install dependencies
 Run PHPStan
 
 These workflows provide automated quality checks for every change.
-Commit Message:
-chore(theme): initialize Atlas theme directory structure
-push Commit Message: 
-chore(theme): initialize Atlas theme directory structure
-push
 
 
 
