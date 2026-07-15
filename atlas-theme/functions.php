@@ -1,12 +1,22 @@
 <?php
 /**
- * Theme bootstrap.
+ * Theme bootstrap file.
  *
- * @package AtlasTheme
+ * @package Godigiler\Atlas\Theme
  */
 
 declare(strict_types=1);
 
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;
+}
+
+$autoload = dirname( __DIR__ ) . '/vendor/autoload.php';
+
+if ( file_exists( $autoload ) ) {
+	require_once $autoload;
+}
+
+if ( class_exists( \Godigiler\Atlas\Theme\Bootstrap::class ) ) {
+	\Godigiler\Atlas\Theme\Bootstrap::init();
 }
