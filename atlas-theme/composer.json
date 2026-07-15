@@ -1,0 +1,17 @@
+{
+    "name": "godigiler/atlas-theme",
+    "description": "Atlas Theme for the Godigiler Atlas platform.",
+    "type": "wordpress-theme",
+    "license": "proprietary",
+    "require": {
+        "php": "^8.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Atlas\\Theme\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
