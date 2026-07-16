@@ -31,6 +31,11 @@
             "@analyse"
         ]
     },
+	"autoload": {
+    "psr-4": {
+        "Godigiler\\Atlas\\Theme\\": "src/"
+    }
+},
     "config": {
         "sort-packages": true,
         "allow-plugins": {

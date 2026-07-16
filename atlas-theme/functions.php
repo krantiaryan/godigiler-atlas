@@ -18,5 +18,5 @@ if ( file_exists( $autoload ) ) {
 }
 
 if ( class_exists( \Godigiler\Atlas\Theme\Bootstrap::class ) ) {
-	\Godigiler\Atlas\Theme\core\Bootstrap::init();
+	\Godigiler\Atlas\Theme\Bootstrap::init();
 }
