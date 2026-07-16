@@ -11,12 +11,12 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-$autoload = dirname( __DIR__ ) . '/vendor/autoload.php';
+$autoload = __DIR__ . '/vendor/autoload.php';
 
 if ( file_exists( $autoload ) ) {
 	require_once $autoload;
 }
 
 if ( class_exists( \Godigiler\Atlas\Theme\Bootstrap::class ) ) {
-	\Godigiler\Atlas\Theme\Bootstrap::init();
+	\Godigiler\Atlas\Theme\core\Bootstrap::init();
 }
