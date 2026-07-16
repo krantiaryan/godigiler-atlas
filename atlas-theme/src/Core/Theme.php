@@ -7,7 +7,9 @@
 
 declare(strict_types=1);
 
-namespace Atlas\Theme;
+namespace Atlas\Theme\Core;
+
+use Atlas\Theme\Setup\ThemeSetup;
 
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;
@@ -19,12 +21,13 @@ if ( ! defined( 'ABSPATH' ) ) {
 final class Theme {
 
 	/**
-	 * Initialize theme.
+	 * Initialize the theme.
 	 *
 	 * @return void
 	 */
 	public static function init(): void {
 
-		// Future initialization.
+		ThemeSetup::init();
+
 	}
 }
