@@ -1,17 +1,30 @@
-/vendor/
-/node_modules/
-/build/
-/dist/
-/coverage/
-/.idea/
-/.vscode/
-.DS_Store
-Thumbs.db
+# Composer
+**/vendor/
 
-package-lock.json
-yarn.lock
+# Node
+**/node_modules/
 
+# Logs
+*.log
+
+# Environment
 .env
 .env.*
 
-*.log
+# IDE
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Build
+dist/
+build/
+
+# Composer lock (until we decide package strategy)
+# composer.lock
